@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Add for Android/MS device theme -->
 	<!-- <meta name="theme-color" content="#1c233d"> -->
-	<title>Safe Step® Walk-In Tub</title>
+	<title>"Bathroom Company"® Walk-In Tub</title>
 	<meta name='robots' content='noindex, nofollow' />
 	<style>
 		img:is([sizes="auto" i], [sizes^="auto," i]) {
@@ -646,7 +646,7 @@
 			src="https://ct.pinterest.com/v3/?event=init&tid=2613713422561&pd[em]=<hashed_email_address>&noscript=1" />
 	</noscript>
 	<!-- end Pinterest Tag -->
-	<!-- Segment Pixel - Safe Step All Traffic Retargeting Pixel - DO NOT MODIFY -->
+	<!-- Segment Pixel - "Bathroom Company" All Traffic Retargeting Pixel - DO NOT MODIFY -->
 	<script src='https://secure.adnxs.com/seg?add=39341618&t=1' type='text/javascript'></script>
 	<!-- End of Segment Pixel -->
 	<link rel="icon" href="./wp-content/uploads/2023/11/cropped-safestep-favicon-512-32x32.png" sizes="32x32" />
@@ -670,22 +670,66 @@
 				<div class="container">
 					<a href="index.html#popupForm">
 						<span class="d-none d-lg-inline">
-							<strong>Get a $1,500 discount</strong> on your walk-in tub and receive a free toilet with
-							installation
-							Installation* </span>
+							<strong>Get a $1,500 discount</strong> on your walk-in tub
+						</span>
 
 						<span class="d-lg-none">
-							<strong>Get a $1,500 discount</strong><br>on your walk-in tub and receive a free toilet with
-							installation </span>
+							<strong>Get a $1,500 discount</strong><br>on your walk-in tub </span>
 					</a>
 				</div>
 			</div>
 
 			<div class="navbar-main">
-				<div class="navbar-logo">
+				<!-- <div class="navbar-logo">
 					<a href="index.html">
 						<img src="./wp-content/pictures/bath-shower-line.svg" /> </a>
-				</div>
+				</div> -->
+
+				<header class="site-header">
+					<div class="header-container">
+						<a href="index.html">
+							<img class="logo-svg-header" src="./wp-content/pictures/bath-shower-line.svg" /> </a>
+				
+						<!-- бургер -->
+						<div class="burger" id="burger">
+							☰
+						</div>
+				
+						<!-- меню -->
+						<nav class="header-navigation" id="nav-menu">
+							<ul class="menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html">Bath Features</a></li>
+								<li><a href="index.html">Walk-In Showers</a></li>
+								<li><a href="index.html">Warranty & Custom Pricing</a></li>
+								<li><a href="index.html">Before & After Gallery</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+
+					<script>
+
+					const burger = document.getElementById('burger');
+						const navMenu = document.getElementById('nav-menu');
+
+						// відкривати / закривати меню
+						burger.addEventListener('click', (e) => {
+							e.stopPropagation(); // щоб клік на бургері не закривав меню
+							navMenu.classList.toggle('active');
+						});
+
+						// клік поза меню -> закриваємо
+						document.addEventListener('click', (e) => {
+							if (!navMenu.contains(e.target) && !burger.contains(e.target)) {
+								navMenu.classList.remove('active');
+							}
+						});
+					</script>
+
+
+
+
 				<div class="navbar-btns">
 					<a href="index.html#popupForm" class="btn btn-red btn-sm">
 						Request Free Quote </a>
@@ -713,7 +757,7 @@
 			</div>
 		</div>
 
-		<div class="content home">
+		<div class="content home mr-top-herader">
 
 			<div class="block block-section block-hero bg-none text-dark section--margin block-hero--variation-split-image bg-theme-dark"
 				id="block_7567a4e5c241754e095c1e5036d975d9">
@@ -724,11 +768,9 @@
 						<source media="(min-width: 1200px)"
 							srcset="https://images.squarespace-cdn.com/content/v1/64cfb8fde4526e3225f2cc73/52178606-0763-4943-9b53-b318958df91c/Step-In+Walk-In+Tub+With+Outward+Opening+Door.jpeg"
 							type="image/jpeg">
-						<source media="(max-width: 768px)"
-							srcset="https://freequote.safesteptub.com/wp-content/uploads/2025/04/ss-hero-bathroom-lp-product-1024x658.jpg"
+						<source media="(max-width: 768px)" srcset="https://i.ytimg.com/vi/3UCr0DWVJ9w/maxresdefault.jpg"
 							type="image/jpeg">
-						<img decoding="async"
-							src="./wp-content/uploads/2025/04/ss-split-hero-april-2025-v3-1536x624.jpg" alt="">
+						<img decoding="async" src="https://i.ytimg.com/vi/3UCr0DWVJ9w/maxresdefault.jpg" alt="">
 					</picture>
 				</div>
 
@@ -742,9 +784,10 @@
 
 
 						<div class="block block-form">
-							<div class="form">
+							<div class="form form-radius-hero">
 								<div class="form-headline ">
-									Save $1,500 on a Walk-In Tub <span class="subhead">+ Free Installed Toilet*</span>
+									Save $1,500 on a Walk-In Tub
+									<!-- <span class="subhead">+ Free Installed Toilet*</span> -->
 								</div>
 								<div class="form-body">
 									<div class="form-description">
@@ -782,7 +825,7 @@
 											<form method='post' enctype='multipart/form-data'
 												target='gform_ajax_frame_23' id='gform_23' action='index.html'
 												data-formid='23' novalidate>
-												<div id='gf_page_steps_23' class='gf_page_steps'>
+												<!-- <div id='gf_page_steps_23' class='gf_page_steps'>
 													<div id='gf_step_23_1' class='gf_step gf_step_active gf_step_first'>
 														<span class='gf_step_number'>1</span><span
 															class='gf_step_label'></span>
@@ -795,7 +838,7 @@
 														<span class='gf_step_number'>3</span><span
 															class='gf_step_label'></span>
 													</div>
-												</div>
+												</div> -->
 												<div class='gform-body gform_body'>
 													<div id='gform_page_23_1' class='gform_page '
 														data-js='page-field-id-0'>
@@ -858,7 +901,7 @@
 																</fieldset>
 															</div>
 														</div>
-														<div class='gform-page-footer gform_page_footer top_label'>
+														<div class=' gform-page-footer gform_page_footer top_label'>
 															<input type='button' id='gform_next_button_23_25'
 																class='gform_next_button gform-theme-button button'
 																onclick='gform.submission.handleButtonClick(this);'
@@ -1100,13 +1143,14 @@
 																</div>
 															</div>
 														</div>
-														<div class='gform-page-footer gform_page_footer top_label'>
-															<input type='submit' id='gform_previous_button_23'
-																class='gform_previous_button gform-theme-button gform-theme-button--secondary button'
+														<div
+															class='btn-form-hero-back gform-page-footer gform_page_footer top_label'>
+															<!-- <input type='submit' id='gform_previous_button_23'
+																class='btn-form-hero-back gform_previous_button gform-theme-button gform-theme-button--secondary button'
 																onclick='gform.submission.handleButtonClick(this);'
-																data-submission-type='previous' value='Go Back' />
+																data-submission-type='previous' value='Go Back' /> -->
 															<input type='submit' id='gform_submit_button_23'
-																class='gform_button button'
+																class='btn-form-hero-back gform_button button'
 																onclick='gform.submission.handleButtonClick(this);'
 																data-submission-type='submit'
 																value='Request Free Quote' /> <input type='hidden'
@@ -1252,67 +1296,6 @@
 
 
 
-			<div class="block block-section block-credentials hero-trust-bar-desktop bg-lightblue_gradient_sn text-dark section--padding bg-color bg-theme-light"
-				id="block_e64c85d6955835ef6ff6168ed65e53d1">
-
-
-				<div class="container">
-					<div class="acf-innerblocks-container">
-
-						<h2
-							class="wp-block-heading has-text-align-center is-style-size-h2 has-brand-blue-color has-text-color has-link-color wp-elements-93f3cd7104ed759c40b3f8486fd796b5">
-							North America’s #1 Selling Walk-In Tub</h2>
-
-
-
-						<p
-							class="has-text-align-center has-academy-blue-color has-text-color has-link-color wp-elements-f363767691785a93aa89be820e16a7bc">
-							<strong>We’re a Step Above Our Competitors</strong>
-						</p>
-
-
-
-						<div class="block block-logos">
-							<div class="logo-grid">
-								<div class="logo">
-									<img decoding="async"
-										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_made-in-tenn.png"
-										alt="made in tennessee" />
-								</div>
-								<div class="logo">
-									<img decoding="async"
-										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_bbb-aplus.png"
-										alt="bbb a+ rating" />
-								</div>
-								<div class="logo">
-									<img decoding="async"
-										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_ease-of-use.png"
-										alt="ease of use certified arthritis foundation" />
-								</div>
-								<div class="logo">
-									<img decoding="async"
-										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_number-1-selling.png"
-										alt="north america&#039;s #1 selling walk-in tub" />
-								</div>
-								<div class="logo">
-									<img decoding="async"
-										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_lowest-price.png"
-										alt="lowest price guaranatee" />
-								</div>
-								<div class="logo">
-									<img decoding="async"
-										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_warranty.png"
-										alt="lifetime limited warranty" />
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-
-			</div>
-
 
 
 			<div class="block block-features-diagram section--margin">
@@ -1321,7 +1304,7 @@
 						<div class="col-lg-6 offset-lg-6">
 							<div class="acf-innerblocks-container">
 
-								<p class="text-style--label">Safe Step Duo Walk-In Tub</p>
+								<!-- <p class="text-style--label">"Bathroom Company" Duo Walk-In Tub</p> -->
 
 
 
@@ -1474,6 +1457,155 @@
 				</div>
 			</div>
 
+			<div class="block block-section bg-lightblue_gradient_sn text-dark section--padding bg-color bg-theme-light"
+				id="block_a612c81e5715ddb106f314f0a59a06cc">
+
+
+				<div class="container">
+					<div class="acf-innerblocks-container">
+
+						<div
+							class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+							<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+								style="flex-basis:45%">
+								<!-- <p class="text-style--label">The "Bathroom Company" Difference</p> -->
+
+
+
+								<h2 class="wp-block-heading">We&#8217;re Committed to Your Quality of Life</h2>
+
+
+
+								<p>We believe in empowering people to lead more active and independent lives. From the
+									products we offer to the service we deliver, we go above and beyond, creating
+									thoughtful solutions that put our customers—and their safety—at the forefront of
+									everything we do.</p>
+
+
+
+								<div
+									class="wp-block-buttons d-none d-md-flex is-layout-flex wp-block-buttons-is-layout-flex">
+									<div class="wp-block-button"><a
+											class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
+											href="index.html#popupForm">Experience "Bathroom Company"</a></div>
+								</div>
+							</div>
+
+
+
+							<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+								style="flex-basis:55%">
+								<div class="block block-accordion m-0" id="">
+									<div>
+										<div class="accordion-item">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-0"
+												aria-expanded="true" aria-controls="accordion-68c4cf955e30c-0">
+												<img decoding="async" class="icon"
+													src="./wp-content/pictures/icons/maps.png" alt="" />
+												<span class="title">Made For You in Tennessee</span>
+												<span class="toggle-symbol"></span>
+											</button>
+											<div id="accordion-68c4cf955e30c-0" class="accordion-collapse collapse">
+												<div class="accordion-body">
+													<p>While we serve internationally, we manufacture and build our
+														industry-leading walk-in tubs and showers in the state of
+														Tennessee for the highest quality. And we’re the only walk-in
+														tub company to do so.</p>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-1"
+												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-1">
+												<img decoding="async" class="icon"
+													src="./wp-content/pictures/icons/magic.png" alt="" />
+												<span class="title">Unmatched Style</span>
+												<span class="toggle-symbol"></span>
+											</button>
+											<div id="accordion-68c4cf955e30c-1" class="accordion-collapse collapse">
+												<div class="accordion-body">
+													<p>Transform your bathroom with the sleek, versatile design of the
+														"Bathroom Company" Walk-In Tub, beautifully built to complement
+														your
+														style and personality.</p>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-2"
+												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-2">
+												<img decoding="async" class="icon"
+													src="./wp-content/pictures/icons/dollar.png" alt="" />
+												<span class="title">Custom Pricing &#038; Flexible Financing</span>
+												<span class="toggle-symbol"></span>
+											</button>
+											<div id="accordion-68c4cf955e30c-2" class="accordion-collapse collapse">
+												<div class="accordion-body">
+													<p>We&#8217;ve made it easier than ever to get the industry-leading
+														walk-in tub or shower on a budget that works for you.</p>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-3"
+												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-3">
+												<img decoding="async" class="icon"
+													src="./wp-content/pictures/icons/easy-installation.png" alt="" />
+												<span class="title">Fast &#038; Convenient Installation</span>
+												<span class="toggle-symbol"></span>
+											</button>
+											<div id="accordion-68c4cf955e30c-3" class="accordion-collapse collapse">
+												<div class="accordion-body">
+													<p>We designed the "Bathroom Company" Walk-In Tub to fit into the
+														footprint
+														of your existing tub, so you can enjoy your new bath in as
+														little as one day—zero stress or hassle.</p>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<button class="accordion-button collapsed" type="button"
+												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-4"
+												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-4">
+												<img decoding="async" class="icon"
+													src="./wp-content/pictures/icons/checked.png" alt="" />
+												<span class="title">Best-in-Class Lifetime Warranty</span>
+												<span class="toggle-symbol"></span>
+											</button>
+											<div id="accordion-68c4cf955e30c-4" class="accordion-collapse collapse">
+												<div class="accordion-body">
+													<p>Purchase with peace of mind, knowing your investment and your tub
+														will be protected for as long as you live in your home.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+						<div style="height:30px" aria-hidden="true" class="wp-block-spacer d-lg-none"></div>
+
+
+
+						<div
+							class="wp-block-buttons is-style-mobile-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+							<div class="wp-block-button"><a
+									class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
+									href="index.html#popupForm">Experience "Bathroom Company"</a></div>
+						</div>
+
+					</div>
+				</div>
+
+
+			</div>
 
 
 			<div class="block block-section bg-lightblue_gradient_ns text-dark section--padding bg-color bg-theme-light"
@@ -1483,7 +1615,7 @@
 				<div class="container">
 					<div class="acf-innerblocks-container">
 
-						<p class="has-text-align-center text-style--label">Your Safe Step Experience</p>
+						<p class="has-text-align-center text-style--label">Your "Bathroom Company" Experience</p>
 
 
 
@@ -1492,7 +1624,8 @@
 
 
 						<p class="has-text-align-left max-width-780 text-left text-md-center has-label-text-font-size">
-							Safe Step maintains an A+ rating with the Better Business Bureau because we get the job done
+							"Bathroom Company" maintains an A+ rating with the Better Business Bureau because we get the
+							job done
 							right. From the first
 							consultation to installation, our experts handle all the heavy lifting to deliver your new
 							bathing experience on time
@@ -1502,7 +1635,7 @@
 
 						<div class="block block-step-slider ">
 							<div class="step-slider row">
-								<div class="col-lg-4 d-flex">
+								<div class=" mb-in-mobile col-lg-4 d-flex">
 									<div class="card card-style--images">
 
 										<div class="card-img-top">
@@ -1518,13 +1651,14 @@
 											</p>
 											<p class="card-title">Contact Us</p>
 											<p>Call us at <a href="tel:8887461715">(888) 746-1715</a> or fill out our
-												online form and speak with a Safe Step specialist to learn more about
+												online form and speak with a "Bathroom Company" specialist to learn more
+												about
 												your free, no-obligation in-home quote.</p>
 										</div>
 
 									</div>
 								</div>
-								<div class="col-lg-4 d-flex">
+								<div class=" mb-in-mobile col-lg-4 d-flex">
 									<div class="card card-style--images">
 
 										<div class="card-img-top">
@@ -1546,7 +1680,7 @@
 
 									</div>
 								</div>
-								<div class="col-lg-4 d-flex">
+								<div class=" mb-in-mobile col-lg-4 d-flex">
 									<div class="card card-style--images">
 
 										<div class="card-img-top">
@@ -1586,646 +1720,53 @@
 
 			</div>
 
-
-
-			<div class="block block-section bg-darkblue_bubble_ne text-dark section--padding bg-color bg-theme-dark"
-				id="block_ea28d08c255c2da18c9696bd90c72500">
-
+			<div class="block block-section block-credentials hero-trust-bar-desktop bg-lightblue_gradient_sn text-dark section--padding bg-color bg-theme-light"
+				id="block_e64c85d6955835ef6ff6168ed65e53d1">
 
 				<div class="container">
 					<div class="acf-innerblocks-container">
+						<h2
+							class="wp-block-heading has-text-align-center is-style-size-h2 has-brand-blue-color has-text-color has-link-color wp-elements-93f3cd7104ed759c40b3f8486fd796b5">
+							North America’s #1 Selling Walk-In Tub</h2>
 
-						<div class="block block-section mt-0 pb-0 section-real-customers bg-none text-dark section--margin bg-theme-light"
-							id="block_f75562923f85adc3f48920c89634dd4a">
+						<p
+							class="has-text-align-center has-academy-blue-color has-text-color has-link-color wp-elements-f363767691785a93aa89be820e16a7bc">
+							<strong>We’re a Step Above Our Competitors</strong>
+						</p>
 
-
-							<div class="container">
-								<div class="acf-innerblocks-container">
-
-									<div
-										class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
-										<div
-											class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-											<p class="text-style--label">Safe Step Success Stories</p>
-
-
-
-											<h2 class="wp-block-heading">Real Customers.<br>Life-Changing Results.</h2>
-
-
-
-											<p>Hear stories from real Safe Step customers who are now enjoying an
-												entirely new bathing experience.</p>
-
-
-
-											<div
-												class="wp-block-buttons d-none d-md-flex is-layout-flex wp-block-buttons-is-layout-flex">
-												<div class="wp-block-button"><a
-														class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
-														href="index.html#popupForm">Step Into Satisfaction</a></div>
-											</div>
-										</div>
-
-
-
-										<div
-											class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
-											<div class="block block-card-slider">
-												<div class="card-slider js-slider" data-slick='{"dots":true}'>
-													<div class="slide">
-														<div class="card bg-lightblue_gradient_we">
-															<div class="card-media-slot">
-																<img decoding="async"
-																	src="https://theukrainians.org/wp-content/uploads/2025/03/NFX_9109.jpg"
-																	alt="doug edwards" />
-																<a href="https://www.youtube.com/watch?v=TgiVrn7yLh8"
-																	class="video-overlay" data-fancybox>
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		width="64.898" height="64.898">
-																		<path id="Path_149" data-name="Path 149"
-																			d="M32.449 0A32.449 32.449 0 1064.9 32.449 32.449 32.449 0 0032.449 0M36.2 40.5l-13.943 8.05v-32.2L36.2 24.4l13.943 8.049z"
-																			fill="currentColor" />
-																	</svg> <span class="visually-hidden">Play
-																		Video</span>
-																</a>
-															</div>
-															<div class="card-body">
-																<p class="card-title">Doug Edwards</p>
-																<p class="card-subtitle">U.S. Navy Veteran</p>
-																<p>A beneficiary of our Safe Step Cares® program, Doug
-																	now enjoys peace of mind with his new walk-in tub
-																	and shower hybrid.</p>
-																<a href="https://www.youtube.com/watch?v=TgiVrn7yLh8"
-																	class="btn btn-secondary" data-fancybox>
-																	Watch Doug’s Story </a>
-															</div>
-														</div>
-													</div>
-													<div class="slide">
-														<div class="card bg-lightblue_gradient_we">
-															<div class="card-media-slot">
-																<img decoding="async"
-																	src="./wp-content/uploads/2023/11/Screenshot-2023-11-01-at-12.34.00-PM-copy-768x350.jpg"
-																	alt="dr howard russell" />
-																<a href="https://www.youtube.com/watch?v=psFAAowszgw"
-																	class="video-overlay" data-fancybox>
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		width="64.898" height="64.898">
-																		<path id="Path_149" data-name="Path 149"
-																			d="M32.449 0A32.449 32.449 0 1064.9 32.449 32.449 32.449 0 0032.449 0M36.2 40.5l-13.943 8.05v-32.2L36.2 24.4l13.943 8.049z"
-																			fill="currentColor" />
-																	</svg> <span class="visually-hidden">Play
-																		Video</span>
-																</a>
-															</div>
-															<div class="card-body">
-																<p class="card-title">Dr. Howard Russell</p>
-																<p class="card-subtitle">Geriatric Physician </p>
-																<p>Dr. Russell specializes in helping elderly patients
-																	improve their quality of life. Learn why he
-																	recommends Safe Step to everyone.</p>
-																<a href="https://www.youtube.com/watch?v=psFAAowszgw"
-																	class="btn btn-secondary" data-fancybox>
-																	Hear From Dr. Russell </a>
-															</div>
-														</div>
-													</div>
-													<div class="slide">
-														<div class="card bg-lightblue_gradient_we">
-															<div class="card-media-slot">
-																<img decoding="async"
-																	src="./wp-content/uploads/2023/11/Screenshot-2023-11-01-at-12.35.12-PM-copy-768x350.jpg"
-																	alt="Magdalen Naquin" />
-																<a href="https://www.youtube.com/watch?v=5RHaCDCWVYo"
-																	class="video-overlay" data-fancybox>
-																	<svg xmlns="http://www.w3.org/2000/svg"
-																		width="64.898" height="64.898">
-																		<path id="Path_149" data-name="Path 149"
-																			d="M32.449 0A32.449 32.449 0 1064.9 32.449 32.449 32.449 0 0032.449 0M36.2 40.5l-13.943 8.05v-32.2L36.2 24.4l13.943 8.049z"
-																			fill="currentColor" />
-																	</svg> <span class="visually-hidden">Play
-																		Video</span>
-																</a>
-															</div>
-															<div class="card-body">
-																<p class="card-title">Magdalen Naquin</p>
-																<p class="card-subtitle">Suffers From Muscular Dystrophy
-																</p>
-																<p>Therapy jets and a soothing bubble massage help
-																	relieve Magdalen’s body tension and chronic pain.
-																</p>
-																<a href="https://www.youtube.com/watch?v=5RHaCDCWVYo"
-																	class="btn btn-secondary" data-fancybox>
-																	Meet Magdalen </a>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="js-slider-controls"></div>
-											</div>
-										</div>
-									</div>
-
-
-
-									<div style="height:40px" aria-hidden="true" class="wp-block-spacer d-lg-none"></div>
-
-
-
-									<div
-										class="wp-block-buttons is-style-mobile-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-										<div class="wp-block-button"><a
-												class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
-												href="index.html#popupForm">Step Into Satisfaction</a></div>
-									</div>
-
+						<div class="block block-logos">
+							<div class="logo-grid">
+								<div class="logo">
+									<img decoding="async"
+										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_made-in-tenn.png"
+										alt="made in tennessee" />
+								</div>
+								<div class="logo">
+									<img decoding="async"
+										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_bbb-aplus.png"
+										alt="bbb a+ rating" />
+								</div>
+								<div class="logo">
+									<img decoding="async"
+										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_ease-of-use.png"
+										alt="ease of use certified arthritis foundation" />
+								</div>
+								<div class="logo">
+									<img decoding="async"
+										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_number-1-selling.png"
+										alt="north america&#039;s #1 selling walk-in tub" />
+								</div>
+								<div class="logo">
+									<img decoding="async"
+										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_lowest-price.png"
+										alt="lowest price guaranatee" />
+								</div>
+								<div class="logo">
+									<img decoding="async"
+										src="./wp-content/uploads/2024/07/safestep-accred-logo-blue-solid_warranty.png"
+										alt="lifetime limited warranty" />
 								</div>
 							</div>
-
-
-						</div>
-
-
-
-						<div class="block block-section mb-0 bg-none text-dark section--margin bg-theme-light"
-							id="block_56f35b37489901e1ca71df5c2c7de0e9">
-
-
-							<div class="container">
-								<div class="acf-innerblocks-container">
-
-									<h3 class="wp-block-heading max-width-none">See More From Tub Lovers &amp; Shower
-										Enthusiasts</h3>
-
-
-
-									<div class="block block-testimonial-cards">
-										<div class="testimonial-slider">
-											<div class="slide">
-												<div class="row w-100">
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-EloiseS.png"
-																		alt="eloise headshot" />
-																	<strong class="t-attr-name">
-																		Eloise S. </strong>
-																	<span class="t-attr-location">
-																		Louisiana </span>
-																</cite>
-																<p class="card-title">My Husband and I Both LOVE Our New
-																	Safe Step!</p>
-																My husband and I LOVE our new SafeStep Shower Tub! The
-																only negative about it is getting out &#8211; we love it
-																a little too much 🙂
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-ThomasS.png"
-																		alt="thomas headshot" />
-																	<strong class="t-attr-name">
-																		Thomas S. </strong>
-																	<span class="t-attr-location">
-																		California </span>
-																</cite>
-																<p class="card-title">Beyond My Expectations</p>
-																But I am really enjoying my new tub 🛀 with back
-																surgery, knee replacements this is all the therapy I
-																need.The whole process was a great experience, and the
-																tub is a real blessing for us.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-MarkNancyP.png"
-																		alt="mark and nancy headshot" />
-																	<strong class="t-attr-name">
-																		Mark &#038; Nancy P. </strong>
-																	<span class="t-attr-location">
-																		Texas </span>
-																</cite>
-																<p class="card-title">Wonderful! A Sheer Delight to Use.
-																</p>
-																Wish we had done this year&#8217;s prior. It is so
-																relaxing, and it helps to sooth my arthritis pain in my
-																hip and my hand.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="slide">
-												<div class="row w-100">
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-RobertL.png"
-																		alt="robert headshot" />
-																	<strong class="t-attr-name">
-																		Robert L. </strong>
-																	<span class="t-attr-location">
-																		Wisconsin </span>
-																</cite>
-																<p class="card-title">Best Choice Ever</p>
-																You don&#8217;t know what you’re missing until you try
-																one. Thank you, Safe Step.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-LindaR.png"
-																		alt="linda headshot" />
-																	<strong class="t-attr-name">
-																		Linda R. </strong>
-																	<span class="t-attr-location">
-																		Nebraska </span>
-																</cite>
-																<p class="card-title">5 Star Product!</p>
-																The whole process was a great experience, and the tub is
-																a real blessing for us.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-BrendaC.png"
-																		alt="brenda headshot" />
-																	<strong class="t-attr-name">
-																		Brenda C. </strong>
-																	<span class="t-attr-location">
-																		Rhode Island </span>
-																</cite>
-																<p class="card-title">Our Walk-In Tub Looks Great!</p>
-																The walk-in is a fantastic addition to our master
-																bathroom. We couldn&#8217;t be happier.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="slide">
-												<div class="row w-100">
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-BrendaK.png"
-																		alt="brenda headshot" />
-																	<strong class="t-attr-name">
-																		Brenda K. </strong>
-																	<span class="t-attr-location">
-																		Massachusetts </span>
-																</cite>
-																<p class="card-title">I can take a bath again after 20
-																	years.</p>
-																We purchased a walk in tub to help my mother who has
-																type 2 diabetes and after her double knee replacement
-																she developed lymphedema and other issues that kept her
-																from being able to take a bath, only showers. She was
-																thrilled to be able to take a bath again after 20 years.
-																She loves new walk in tub and shower.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-JaniceN.png"
-																		alt="janice headshot" />
-																	<strong class="t-attr-name">
-																		Janice N. </strong>
-																	<span class="t-attr-location">
-																		Pennsylvania </span>
-																</cite>
-																<p class="card-title">We love the way it makes us feel.
-																</p>
-																This tub is so wonderful. My husband and I both love it
-																and love the way it makes us feel. It is simply
-																wonderful and measures up to everything you said about
-																it. I am so thankful for the privilege for us to be able
-																to take advantage of this wonderful tub. Even though we
-																find it expensive we praise the Lord for having it in
-																our home. Thank you, Janice and Buddy Naugle.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-													<div class="col-lg-4 d-flex">
-														<div class="testimonial-card card">
-															<blockquote class="card-body">
-																<cite>
-																	<img decoding="async" class="t-attr-image"
-																		src="./wp-content/uploads/2023/11/testimonial-circle-DavidH.png"
-																		alt="david headshot" />
-																	<strong class="t-attr-name">
-																		David H. </strong>
-																	<span class="t-attr-location">
-																		Minnesota </span>
-																</cite>
-																<p class="card-title">The jets are great.</p>
-																The tub is living up to expectations!!! The jets are
-																great, and my wife gets so relaxed that she doesn’t want
-																to get out of the tub!!!!! She has had to shower for the
-																last 6 or 7 years, because she counted get into and out
-																of the tub we had. Now she can bathe and shower off, and
-																she loves it.
-															</blockquote>
-															<div class="card-body rating">
-																<span>5.0</span>
-																<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
-																	height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg> <svg xmlns="http://www.w3.org/2000/svg"
-																	width="21.569" height="20.513">
-																	<path id="Path_66" data-name="Path 66"
-																		d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
-																		fill="orange" />
-																</svg>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="js-slider-controls js-slider-controls--light"></div>
-									</div>
-
-								</div>
-							</div>
-
-
 						</div>
 
 					</div>
@@ -2236,153 +1777,8 @@
 
 
 
-			<div class="block block-section bg-lightblue_gradient_sn text-dark section--padding bg-color bg-theme-light"
-				id="block_a612c81e5715ddb106f314f0a59a06cc">
 
 
-				<div class="container">
-					<div class="acf-innerblocks-container">
-
-						<div
-							class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
-							<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
-								style="flex-basis:45%">
-								<p class="text-style--label">The Safe Step Difference</p>
-
-
-
-								<h2 class="wp-block-heading">We&#8217;re Committed to Your Quality of Life</h2>
-
-
-
-								<p>We believe in empowering people to lead more active and independent lives. From the
-									products we offer to the service we deliver, we go above and beyond, creating
-									thoughtful solutions that put our customers—and their safety—at the forefront of
-									everything we do.</p>
-
-
-
-								<div
-									class="wp-block-buttons d-none d-md-flex is-layout-flex wp-block-buttons-is-layout-flex">
-									<div class="wp-block-button"><a
-											class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
-											href="index.html#popupForm">Experience Safe Step</a></div>
-								</div>
-							</div>
-
-
-
-							<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
-								style="flex-basis:55%">
-								<div class="block block-accordion m-0" id="">
-									<div>
-										<div class="accordion-item">
-											<button class="accordion-button collapsed" type="button"
-												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-0"
-												aria-expanded="true" aria-controls="accordion-68c4cf955e30c-0">
-												<img decoding="async" class="icon"
-													src="./wp-content/uploads/2024/07/made-in-tn.png" alt="" />
-												<span class="title">Made For You in Tennessee</span>
-												<span class="toggle-symbol"></span>
-											</button>
-											<div id="accordion-68c4cf955e30c-0" class="accordion-collapse collapse">
-												<div class="accordion-body">
-													<p>While we serve internationally, we manufacture and build our
-														industry-leading walk-in tubs and showers in the state of
-														Tennessee for the highest quality. And we’re the only walk-in
-														tub company to do so.</p>
-												</div>
-											</div>
-										</div>
-										<div class="accordion-item">
-											<button class="accordion-button collapsed" type="button"
-												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-1"
-												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-1">
-												<img decoding="async" class="icon"
-													src="./wp-content/uploads/2024/07/unmatched.png" alt="" />
-												<span class="title">Unmatched Style</span>
-												<span class="toggle-symbol"></span>
-											</button>
-											<div id="accordion-68c4cf955e30c-1" class="accordion-collapse collapse">
-												<div class="accordion-body">
-													<p>Transform your bathroom with the sleek, versatile design of the
-														Safe Step Walk-In Tub, beautifully built to complement your
-														style and personality.</p>
-												</div>
-											</div>
-										</div>
-										<div class="accordion-item">
-											<button class="accordion-button collapsed" type="button"
-												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-2"
-												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-2">
-												<img decoding="async" class="icon"
-													src="./wp-content/uploads/2024/07/custom-pricing.png" alt="" />
-												<span class="title">Custom Pricing &#038; Flexible Financing</span>
-												<span class="toggle-symbol"></span>
-											</button>
-											<div id="accordion-68c4cf955e30c-2" class="accordion-collapse collapse">
-												<div class="accordion-body">
-													<p>We&#8217;ve made it easier than ever to get the industry-leading
-														walk-in tub or shower on a budget that works for you.</p>
-												</div>
-											</div>
-										</div>
-										<div class="accordion-item">
-											<button class="accordion-button collapsed" type="button"
-												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-3"
-												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-3">
-												<img decoding="async" class="icon"
-													src="./wp-content/uploads/2024/07/fast-install.png" alt="" />
-												<span class="title">Fast &#038; Convenient Installation</span>
-												<span class="toggle-symbol"></span>
-											</button>
-											<div id="accordion-68c4cf955e30c-3" class="accordion-collapse collapse">
-												<div class="accordion-body">
-													<p>We designed the Safe Step Walk-In Tub to fit into the footprint
-														of your existing tub, so you can enjoy your new bath in as
-														little as one day—zero stress or hassle.</p>
-												</div>
-											</div>
-										</div>
-										<div class="accordion-item">
-											<button class="accordion-button collapsed" type="button"
-												data-bs-toggle="collapse" data-bs-target="#accordion-68c4cf955e30c-4"
-												aria-expanded="false" aria-controls="accordion-68c4cf955e30c-4">
-												<img decoding="async" class="icon"
-													src="./wp-content/uploads/2024/07/warranty.png" alt="" />
-												<span class="title">Best-in-Class Lifetime Warranty</span>
-												<span class="toggle-symbol"></span>
-											</button>
-											<div id="accordion-68c4cf955e30c-4" class="accordion-collapse collapse">
-												<div class="accordion-body">
-													<p>Purchase with peace of mind, knowing your investment and your tub
-														will be protected for as long as you live in your home.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-
-						<div style="height:30px" aria-hidden="true" class="wp-block-spacer d-lg-none"></div>
-
-
-
-						<div
-							class="wp-block-buttons is-style-mobile-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-							<div class="wp-block-button"><a
-									class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
-									href="index.html#popupForm">Experience Safe Step</a></div>
-						</div>
-
-					</div>
-				</div>
-
-
-			</div>
 
 
 
@@ -2402,7 +1798,8 @@
 
 
 						<p class="has-text-align-left max-width-780 text-left text-md-center">Get answers to frequently
-							asked questions about the Safe Step Walk-In Tub, and learn more about pricing, installation
+							asked questions about the "Bathroom Company" Walk-In Tub, and learn more about pricing,
+							installation
 							and our industry-leading lifetime warranty.</p>
 
 
@@ -2461,10 +1858,12 @@
 									<div id="accordion-68c4cf955ed51-2" class="accordion-collapse collapse">
 										<div class="accordion-body">
 											<p>When you purchase a walk-in tub, you’re investing in your safety and your
-												home. That&#8217;s why Safe Step gives you a return on that investment
+												home. That&#8217;s why "Bathroom Company" gives you a return on that
+												investment
 												with exceptional coverage of our products—at no additional cost.</p>
 											<p>You won’t find a better warranty on a comparable walk-in tub for the same
-												price. Our comprehensive warranty protects your new Safe Step Walk-In
+												price. Our comprehensive warranty protects your new "Bathroom Company"
+												Walk-In
 												Tub for life.</p>
 										</div>
 									</div>
@@ -2480,7 +1879,8 @@
 										<div class="accordion-body">
 											<p>In as little as one day, our team of certified installers will carefully
 												remove your existing tub, and then discard or recycle it for you. Next,
-												we will begin installing your new Safe Step Walk-In Tub, protecting your
+												we will begin installing your new "Bathroom Company" Walk-In Tub,
+												protecting your
 												floors, walls, cabinets and fixtures.</p>
 											<p>Upon completion, we will check everything to make sure your new tub is
 												functioning at the highest level, leaving your bathroom looking better
@@ -2488,7 +1888,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="accordion-item">
+								<!-- <div class="accordion-item">
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
 										data-bs-target="#accordion-68c4cf955ed51-4" aria-expanded="false"
 										aria-controls="accordion-68c4cf955ed51-4">
@@ -2503,7 +1903,7 @@
 												learn more.</p>
 											<p>Medicare only provides assistance for Durable Medical Equipment (DME). A
 												walk-in tub and shower is not considered a DME, but a convenience rather
-												than a medical necessity. In addition, Safe Step Walk-In Tubs are
+												than a medical necessity. In addition, "Bathroom Company" Walk-In Tubs are
 												available for anyone and are not exclusive to Medicare beneficiaries or
 												adults with special needs.</p>
 										</div>
@@ -2513,13 +1913,13 @@
 									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
 										data-bs-target="#accordion-68c4cf955ed51-5" aria-expanded="false"
 										aria-controls="accordion-68c4cf955ed51-5">
-										<span class="title">Why can’t I get pricing for Safe Step products online or
+										<span class="title">Why can’t I get pricing for "Bathroom Company" products online or
 											over the phone?</span>
 										<span class="toggle-symbol"></span>
 									</button>
 									<div id="accordion-68c4cf955ed51-5" class="accordion-collapse collapse">
 										<div class="accordion-body">
-											<p>Safe Step provides custom-fit installations for all its walk-in tubs and
+											<p>"Bathroom Company" provides custom-fit installations for all its walk-in tubs and
 												showers. The cost of the installed product depends on various factors,
 												including size, standard and optional features, and installation
 												requirements. Due to these unique and customizable aspects, it’s not
@@ -2527,7 +1927,7 @@
 												specific needs.</p>
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 
@@ -2547,6 +1947,660 @@
 			</div>
 		</div>
 
+		<div class="block block-section bg-darkblue_bubble_ne text-dark section--padding bg-color bg-theme-dark"
+			id="block_ea28d08c255c2da18c9696bd90c72500">
+
+
+			<div class="container">
+				<div class="acf-innerblocks-container">
+
+					<div class="block block-section mt-0 pb-0 section-real-customers bg-none text-dark section--margin bg-theme-light"
+						id="block_f75562923f85adc3f48920c89634dd4a">
+
+
+						<div class="container">
+							<div class="acf-innerblocks-container">
+
+								<div
+									class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+									<div
+										class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+										<!-- <p class="text-style--label">"Bathroom Company" Success Stories</p> -->
+
+
+
+										<h2 class="wp-block-heading">Real Customers.<br>Life-Changing Results.</h2>
+
+
+
+										<p>Hear stories from real "Bathroom Company" customers who are now enjoying an
+											entirely new bathing experience.</p>
+
+
+
+										<div
+											class="wp-block-buttons d-none d-md-flex is-layout-flex wp-block-buttons-is-layout-flex">
+											<div class="wp-block-button"><a
+													class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
+													href="index.html#popupForm">Step Into Satisfaction</a></div>
+										</div>
+									</div>
+
+
+
+									<div
+										class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow">
+										<div class="block block-card-slider">
+											<div class="card-slider js-slider" data-slick='{"dots":true}'>
+												<div class="slide">
+													<div class="card bg-lightblue_gradient_we">
+														<div class="card-media-slot">
+															<img class="img_photo_review" decoding="async"
+																src="https://theukrainians.org/wp-content/uploads/2025/03/NFX_9109.jpg"
+																alt="doug edwards" />
+															<a href="https://www.youtube.com/watch?v=TgiVrn7yLh8"
+																class="video-overlay" data-fancybox>
+																<svg xmlns="http://www.w3.org/2000/svg" width="64.898"
+																	height="64.898">
+																	<path id="Path_149" data-name="Path 149"
+																		d="M32.449 0A32.449 32.449 0 1064.9 32.449 32.449 32.449 0 0032.449 0M36.2 40.5l-13.943 8.05v-32.2L36.2 24.4l13.943 8.049z"
+																		fill="currentColor" />
+																</svg> <span class="visually-hidden">Play
+																	Video</span>
+															</a>
+														</div>
+														<div class="card-body">
+															<p class="card-title">Doug Edwards</p>
+															<p class="card-subtitle">U.S. Navy Veteran</p>
+															<p>A beneficiary of our "Bathroom Company" Cares® program,
+																Doug
+																now enjoys peace of mind with his new walk-in tub
+																and shower hybrid.</p>
+															<a href="https://www.youtube.com/watch?v=TgiVrn7yLh8"
+																class="btn btn-secondary btn-preview-video"
+																data-fancybox>
+																Watch Doug’s Story </a>
+														</div>
+													</div>
+												</div>
+												<div class="slide">
+													<div class="card bg-lightblue_gradient_we">
+														<div class="card-media-slot">
+															<img class="img_photo_review" decoding="async"
+																src="./wp-content/uploads/2023/11/Screenshot-2023-11-01-at-12.34.00-PM-copy-768x350.jpg"
+																alt="dr howard russell" />
+															<a href="https://www.youtube.com/watch?v=psFAAowszgw"
+																class="video-overlay" data-fancybox>
+																<svg xmlns="http://www.w3.org/2000/svg" width="64.898"
+																	height="64.898">
+																	<path id="Path_149" data-name="Path 149"
+																		d="M32.449 0A32.449 32.449 0 1064.9 32.449 32.449 32.449 0 0032.449 0M36.2 40.5l-13.943 8.05v-32.2L36.2 24.4l13.943 8.049z"
+																		fill="currentColor" />
+																</svg> <span class="visually-hidden">Play
+																	Video</span>
+															</a>
+														</div>
+														<div class="card-body">
+															<p class="card-title">Dr. Howard Russell</p>
+															<p class="card-subtitle">Geriatric Physician </p>
+															<p>Dr. Russell specializes in helping elderly patients
+																improve their quality of life. Learn why he
+																recommends "Bathroom Company" to everyone.</p>
+															<a href="https://www.youtube.com/watch?v=psFAAowszgw"
+																class="btn btn-secondary btn-preview-video"
+																data-fancybox>
+																Hear From Dr. Russell </a>
+														</div>
+													</div>
+												</div>
+												<div class="slide">
+													<div class="card bg-lightblue_gradient_we">
+														<div class="card-media-slot">
+															<img class="img_photo_review" decoding="async"
+																src="./wp-content/uploads/2023/11/Screenshot-2023-11-01-at-12.35.12-PM-copy-768x350.jpg"
+																alt="Magdalen Naquin" />
+															<a href="https://www.youtube.com/watch?v=5RHaCDCWVYo"
+																class="video-overlay" data-fancybox>
+																<svg xmlns="http://www.w3.org/2000/svg" width="64.898"
+																	height="64.898">
+																	<path id="Path_149" data-name="Path 149"
+																		d="M32.449 0A32.449 32.449 0 1064.9 32.449 32.449 32.449 0 0032.449 0M36.2 40.5l-13.943 8.05v-32.2L36.2 24.4l13.943 8.049z"
+																		fill="currentColor" />
+																</svg> <span class="visually-hidden">Play
+																	Video</span>
+															</a>
+														</div>
+														<div class="card-body">
+															<p class="card-title">Magdalen Naquin</p>
+															<p class="card-subtitle">Suffers From Muscular Dystrophy
+															</p>
+															<p>Therapy jets and a soothing bubble massage help
+																relieve Magdalen’s body tension and chronic pain.
+															</p>
+															<a href="https://www.youtube.com/watch?v=5RHaCDCWVYo"
+																class="btn btn-secondary btn-preview-video"
+																data-fancybox>
+																Meet Magdalen </a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="js-slider-controls"></div>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div style="height:40px" aria-hidden="true" class="wp-block-spacer d-lg-none"></div>
+
+
+
+								<div
+									class="wp-block-buttons is-style-mobile-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+									<div class="wp-block-button"><a
+											class="wp-block-button__link has-brand-red-background-color has-background wp-element-button"
+											href="index.html#popupForm">Step Into Satisfaction</a></div>
+								</div>
+
+							</div>
+						</div>
+
+
+					</div>
+
+
+
+					<div class="block block-section mb-0 bg-none text-dark section--margin bg-theme-light"
+						id="block_56f35b37489901e1ca71df5c2c7de0e9">
+
+
+						<div class="container">
+							<div class="acf-innerblocks-container">
+
+								<h3 class="wp-block-heading max-width-none">See More From Tub Lovers &amp; Shower
+									Enthusiasts</h3>
+
+
+
+								<div class="block block-testimonial-cards">
+									<div class="testimonial-slider">
+										<div class="slide">
+											<div class="row w-100">
+												<div class=" mb-in-mobile col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-EloiseS.png"
+																	alt="eloise headshot" />
+																<strong class="t-attr-name">
+																	Eloise S. </strong>
+																<span class="t-attr-location">
+																	Louisiana </span>
+															</cite>
+															<p class="card-title">My Husband and I Both LOVE Our New
+																"Bathroom Company"!</p>
+															My husband and I LOVE our new SafeStep Shower Tub! The
+															only negative about it is getting out &#8211; we love it
+															a little too much 🙂
+														</blockquote>
+														<div class="card-body rating">
+															<!-- <span>5.0</span> -->
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+															<!-- <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> -->
+														</div>
+													</div>
+												</div>
+												<div class=" mb-in-mobile col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-ThomasS.png"
+																	alt="thomas headshot" />
+																<strong class="t-attr-name">
+																	Thomas S. </strong>
+																<span class="t-attr-location">
+																	California </span>
+															</cite>
+															<p class="card-title">Beyond My Expectations</p>
+															But I am really enjoying my new tub 🛀 with back
+															surgery, knee replacements this is all the therapy I
+															need.The whole process was a great experience, and the
+															tub is a real blessing for us.
+														</blockquote>
+														<div class="card-body rating">
+															<!-- <span>5.0</span> -->
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div class=" mb-in-mobile col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-MarkNancyP.png"
+																	alt="mark and nancy headshot" />
+																<strong class="t-attr-name">
+																	Mark &#038; Nancy P. </strong>
+																<span class="t-attr-location">
+																	Texas </span>
+															</cite>
+															<p class="card-title">Wonderful! A Sheer Delight to Use.
+															</p>
+															Wish we had done this year&#8217;s prior. It is so
+															relaxing, and it helps to sooth my arthritis pain in my
+															hip and my hand.
+														</blockquote>
+														<div class="card-body rating">
+															<!-- <span>5.0</span> -->
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+
+															<!-- <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" /> -->
+															</svg>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- <div class="slide">
+											<div class="row w-100">
+												<div class="col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite>
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-RobertL.png"
+																	alt="robert headshot" />
+																<strong class="t-attr-name">
+																	Robert L. </strong>
+																<span class="t-attr-location">
+																	Wisconsin </span>
+															</cite>
+															<p class="card-title">Best Choice Ever</p>
+															You don&#8217;t know what you’re missing until you try
+															one. Thank you, "Bathroom Company".
+														</blockquote>
+														<div class="card-body rating">
+															<span>5.0</span>
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-LindaR.png"
+																	alt="linda headshot" />
+																<strong class="t-attr-name">
+																	Linda R. </strong>
+																<span class="t-attr-location">
+																	Nebraska </span>
+															</cite>
+															<p class="card-title">5 Star Product!</p>
+															The whole process was a great experience, and the tub is
+															a real blessing for us.
+														</blockquote>
+														<div class="card-body rating">
+															<span>5.0</span>
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-BrendaC.png"
+																	alt="brenda headshot" />
+																<strong class="t-attr-name">
+																	Brenda C. </strong>
+																<span class="t-attr-location">
+																	Rhode Island </span>
+															</cite>
+															<p class="card-title">Our Walk-In Tub Looks Great!</p>
+															The walk-in is a fantastic addition to our master
+															bathroom. We couldn&#8217;t be happier.
+														</blockquote>
+														<div class="card-body rating">
+															<span>5.0</span>
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div> -->
+										<!-- <div class="slide">
+											<div class="row w-100">
+												<div class="col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-BrendaK.png"
+																	alt="brenda headshot" />
+																<strong class="t-attr-name">
+																	Brenda K. </strong>
+																<span class="t-attr-location">
+																	Massachusetts </span>
+															</cite>
+															<p class="card-title">I can take a bath again after 20
+																years.</p>
+															We purchased a walk in tub to help my mother who has
+															type 2 diabetes and after her double knee replacement
+															she developed lymphedema and other issues that kept her
+															from being able to take a bath, only showers. She was
+															thrilled to be able to take a bath again after 20 years.
+															She loves new walk in tub and shower.
+														</blockquote>
+														<div class="card-body rating">
+															<span>5.0</span>
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-JaniceN.png"
+																	alt="janice headshot" />
+																<strong class="t-attr-name">
+																	Janice N. </strong>
+																<span class="t-attr-location">
+																	Pennsylvania </span>
+															</cite>
+															<p class="card-title">We love the way it makes us feel.
+															</p>
+															This tub is so wonderful. My husband and I both love it
+															and love the way it makes us feel. It is simply
+															wonderful and measures up to everything you said about
+															it. I am so thankful for the privilege for us to be able
+															to take advantage of this wonderful tub. Even though we
+															find it expensive we praise the Lord for having it in
+															our home. Thank you, Janice and Buddy Naugle.
+														</blockquote>
+														<div class="card-body rating">
+															<span>5.0</span>
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-4 d-flex">
+													<div class="testimonial-card card">
+														<blockquote class="card-body">
+															<cite class="testimonial-cite-auto">
+																<img decoding="async" class="t-attr-image"
+																	src="./wp-content/uploads/2023/11/testimonial-circle-DavidH.png"
+																	alt="david headshot" />
+																<strong class="t-attr-name">
+																	David H. </strong>
+																<span class="t-attr-location">
+																	Minnesota </span>
+															</cite>
+															<p class="card-title">The jets are great.</p>
+															The tub is living up to expectations!!! The jets are
+															great, and my wife gets so relaxed that she doesn’t want
+															to get out of the tub!!!!! She has had to shower for the
+															last 6 or 7 years, because she counted get into and out
+															of the tub we had. Now she can bathe and shower off, and
+															she loves it.
+														</blockquote>
+														<div class="card-body rating">
+															<span>5.0</span>
+															<svg xmlns="http://www.w3.org/2000/svg" width="21.569"
+																height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg> <svg xmlns="http://www.w3.org/2000/svg"
+																width="21.569" height="20.513">
+																<path id="Path_66" data-name="Path 66"
+																	d="M10.785 0L7.862 7.317 0 7.836l6.055 5.041-1.936 7.636 6.665-4.2 6.665 4.2-1.936-7.637 6.055-5.041-7.862-.519z"
+																	fill="orange" />
+															</svg>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div> -->
+									</div>
+									<div class="js-slider-controls js-slider-controls--light"></div>
+								</div>
+
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+
+
 
 
 		<div id="popupForm" class="fullscreen-popup-form" style=" display:none">
@@ -2555,7 +2609,8 @@
 					<div class="row">
 						<div class="col-lg-5 text-white d-none d-lg-block">
 							<p class="h1 text-white">A Better, Safer Way to Bathe</p>
-							<p>Enjoy life on your terms with Safe Step’s trusted walk-in tub and shower. When you’re
+							<p>Enjoy life on your terms with "Bathroom Company"’s trusted walk-in tub and shower. When
+								you’re
 								ready, our experts are standing by and eager to assist you.</p>
 						</div>
 						<div class="col-lg-7">
@@ -2729,7 +2784,7 @@
 													</div>
 													<div class='gform-page-footer gform_page_footer top_label'>
 														<input type='button' id='gform_previous_button_24_35'
-															class='gform_previous_button gform-theme-button gform-theme-button--secondary button'
+															class=' gform_previous_button gform-theme-button gform-theme-button--secondary button'
 															onclick='gform.submission.handleButtonClick(this);'
 															data-submission-type='previous' value='Go Back' /> <input
 															type='button' id='gform_next_button_24_35'
@@ -2967,12 +3022,13 @@
 							<div class="footer-mission-statement">
 								<strong class="footer-main-headline">
 									This Isn’t a Sideline for Us. It’s Our Specialty. </strong>
-								Enjoy life on your terms with Safe Step’s trusted walk-in tub and shower. When you’re
+								Enjoy life on your terms with "Bathroom Company"’s trusted walk-in tub and shower. When
+								you’re
 								ready, our experts are standing by and are eager to assist you.
 							</div>
 
 
-							<div class="footer-form form">
+							<div class="footer-form form footer-form-auto">
 								<div class="form-body">
 									<div class="form-description">
 										<a class="call-now-cta" href="tel:8887461715">
@@ -3198,23 +3254,23 @@
 								<div class="menu-footer-menu-us-container">
 									<ul id="menu-footer-menu-us" class="menu">
 										<li id="menu-item-391"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-391">
+											class="menu-footer-menu-us-item menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-391">
 											<a href="index.html" aria-current="page">Home</a>
 										</li>
 										<li id="menu-item-388"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388">
+											class="menu-footer-menu-us-item menu-item menu-item-type-post_type menu-item-object-page menu-item-388">
 											<a href="index.html">Bath Features</a>
 										</li>
 										<li id="menu-item-389"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389">
+											class="menu-footer-menu-us-item menu-item menu-item-type-post_type menu-item-object-page menu-item-389">
 											<a href="index.html">Walk-In Showers</a>
 										</li>
 										<li id="menu-item-390"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390">
+											class="menu-footer-menu-us-item menu-item menu-item-type-post_type menu-item-object-page menu-item-390">
 											<a href="index.html">Warranty &#038; Custom Pricing</a>
 										</li>
 										<li id="menu-item-426"
-											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426">
+											class="menu-footer-menu-us-item menu-item menu-item-type-post_type menu-item-object-page menu-item-426">
 											<a href="index.html">Before &#038; After Gallery</a>
 										</li>
 									</ul>
@@ -3243,13 +3299,13 @@
 												alt="youtube" />
 										</a>
 									</li>
-									<li class="list-inline-item">
+									<!-- <li class="list-inline-item">
 										<a href="https://www.pinterest.com/SafeStepTubsandShowers/" target="_blank"
 											rel="noopener">
 											<img src="./wp-content/themes/trimark-framework/dist/images/icons/icon-pinterest.svg"
 												alt="pinterest" />
 										</a>
-									</li>
+									</li> -->
 								</ul>
 							</div>
 
@@ -3262,19 +3318,24 @@
 
 					<div class="footer-disclaimers">
 						<p>*For a limited time only. $1,500 off and a free toilet (install included) with the purchase
-							and installation of a Safe Step Walk-In Tub. Note alternative offer of $1,000 off and a free
-							toilet (install included) with the purchase and installation of a Safe Step Walk-In Shower.
+							and installation of a "Bathroom Company" Walk-In Tub. Note alternative offer of $1,000 off
+							and a free
+							toilet (install included) with the purchase and installation of a "Bathroom Company" Walk-In
+							Shower.
 							Not applicable with any previous walk-in tub or shower purchase. Offer available while
 							supplies last. No cash value. Must present offer at time of purchase. Offer available in
 							select markets. Cannot be combined with any other offers. Expires 9/30/2025. Other
 							restrictions may apply. Lowest Price Guarantee applies to walk-in tubs only (not showers),
 							when considering a walk-in tub of comparable quality.</p>
-						<p>*With the purchase of a new Safe Step Walk-In Tub or Shower, subject to credit approval. Not
+						<p>*With the purchase of a new "Bathroom Company" Walk-In Tub or Shower, subject to credit
+							approval. Not
 							applicable with any previous walk-in tub or shower purchase. Interest is billed during the
 							promotional period but all interest is waived if the purchase amount is paid before the
 							expiration of the promotional period. There is no minimum monthly payment required during
-							the promotional period. Safe Step Walk-In Tub is neither a broker nor a lender. Financing is
-							provided through third-party lenders unaffiliated with Safe Step Walk-In Tub, LLC under
+							the promotional period. "Bathroom Company" Walk-In Tub is neither a broker nor a lender.
+							Financing is
+							provided through third-party lenders unaffiliated with "Bathroom Company" Walk-In Tub, LLC
+							under
 							terms and conditions arranged directly between the customer and such lender. All subject to
 							credit requirements and satisfactory completion of finance documents. Any finance terms
 							advertised are estimates only. Other restrictions may apply. Offer available in select
@@ -3289,7 +3350,7 @@
 
 			<div class="footer-copyright">
 				<div class="container">
-					<div class="copyright-text">&copy; 2025 Safe Step Walk-In Tub. All rights reserved.</div>
+					<div class="copyright-text">&copy; 2025 "Bathroom Company" Walk-In Tub. All rights reserved.</div>
 					<div class="menu-copyright-menu-container">
 						<ul id="menu-copyright-menu" class="menu">
 							<li id="menu-item-242"
@@ -3558,7 +3619,7 @@
 			/* <![CDATA[ */
 			var TRIMARK_VARS = {
 				"translations": {
-					"Call Now": "Call Now", "or Request Your Free Quote": "or Request Your Free Quote", "First Name*": "First Name*", "Last Name*": "Last Name*", "Phone Number*": "Phone Number*", "Zip Code*": "Zip Code*", "Email": "Email", "Request Free Quote": "Request Free Quote", "{{FORM_DISCLAIMER}}": "By filling out this form and clicking \"Request Free Quote\", you consent to receive communications from Safe Step Walk-In Tub, LLC via email, phone calls, and SMS messages, including automated messages, at the number provided for both transactional, appointment reminders, project status and marketing purposes. Msg frequency may vary, and msg & data rates may apply. You may withdraw your consent at any time by following the unsubscribe instructions in our communications. When you submit the form, a live team member will contact you immediately using the phone number you provided. You agree to the Safe Step <a href="https://freequote.safesteptub.com/\&quot;https:\/\/www.safesteptub.com\/privacy-policy\/\&quot;" target=\"_blank\">Privacy Policy<\/a>\u00a0and\u00a0<a href="https://freequote.safesteptub.com/\&quot;https:\/\/www.safesteptub.com\/terms-of-use\/\&quot;" target=\"_blank\">Terms of Use<\/a>.","This field is required.":"This field is required.","There was a problem with your submission. Please review the fields below.":"There was a problem with your submission. Please review the fields below.","These fields are required. Please complete the following fields: First Name, Last Name.":"These fields are required. Please complete the following fields: First Name, Last Name.","This field is required (10 digits).":"This field is required (10 digits).","Please enter a valid 10-digit phone number.":"Please enter a valid 10-digit phone number.","Please enter a valid postal code.":"Please enter a valid postal code.","Continue":"Continue","Go Back":"Go Back","Which bath features are most important to you?*":"Which bath features are most important to you?*","Ultra-Low Step":"Ultra-Low Step","Hydro Massage Jets":"Hydro Massage Jets","Heated Seat And Back":"Heated Seat And Back","Hybrid Shower Package":"Hybrid Shower Package","Who are you purchasing a walk-in tub for?*":"Who are you purchasing a walk-in tub for?*","Self":"Self","Parent":"Parent","Spouse":"Spouse","Other":"Other","Close":"Close"}};
+					"Call Now": "Call Now", "or Request Your Free Quote": "or Request Your Free Quote", "First Name*": "First Name*", "Last Name*": "Last Name*", "Phone Number*": "Phone Number*", "Zip Code*": "Zip Code*", "Email": "Email", "Request Free Quote": "Request Free Quote", "{{FORM_DISCLAIMER}}": "By filling out this form and clicking \"Request Free Quote\", you consent to receive communications from "Bathroom Company" Walk-In Tub, LLC via email, phone calls, and SMS messages, including automated messages, at the number provided for both transactional, appointment reminders, project status and marketing purposes. Msg frequency may vary, and msg & data rates may apply. You may withdraw your consent at any time by following the unsubscribe instructions in our communications. When you submit the form, a live team member will contact you immediately using the phone number you provided. You agree to the "Bathroom Company" <a href="https://freequote.safesteptub.com/\&quot;https:\/\/www.safesteptub.com\/privacy-policy\/\&quot;" target=\"_blank\">Privacy Policy<\/a>\u00a0and\u00a0<a href="https://freequote.safesteptub.com/\&quot;https:\/\/www.safesteptub.com\/terms-of-use\/\&quot;" target=\"_blank\">Terms of Use<\/a>.","This field is required.":"This field is required.","There was a problem with your submission. Please review the fields below.":"There was a problem with your submission. Please review the fields below.","These fields are required. Please complete the following fields: First Name, Last Name.":"These fields are required. Please complete the following fields: First Name, Last Name.","This field is required (10 digits).":"This field is required (10 digits).","Please enter a valid 10-digit phone number.":"Please enter a valid 10-digit phone number.","Please enter a valid postal code.":"Please enter a valid postal code.","Continue":"Continue","Go Back":"Go Back","Which bath features are most important to you?*":"Which bath features are most important to you?*","Ultra-Low Step":"Ultra-Low Step","Hydro Massage Jets":"Hydro Massage Jets","Heated Seat And Back":"Heated Seat And Back","Hybrid Shower Package":"Hybrid Shower Package","Who are you purchasing a walk-in tub for?*":"Who are you purchasing a walk-in tub for?*","Self":"Self","Parent":"Parent","Spouse":"Spouse","Other":"Other","Close":"Close"}};
 			/* ]]> */
 		</script>
 		<script type="text/javascript" src="./wp-content/themes/trimark-framework/dist/js/scripts-min.js@ver=1755110140"
@@ -3566,16 +3627,16 @@
 		<script type="text/javascript" src="./wp-content/plugins/optinmonster/assets/dist/js/helper.min.js@ver=2.16.20"
 			id="optinmonster-wp-helper-js"></script>
 		<script type="text/javascript">
-						/* <![CDATA[ */
-						gform.initializeOnLoaded(function () {
-							jQuery(document).on('gform_post_render', function (event, formId, currentPage) {
-								if (formId == 23) {
-									if (typeof Placeholders != 'undefined') {
-										Placeholders.enable();
-									} jQuery('#input_23_10').mask('(999) 999-9999').bind('keypress', function (e) { if (e.which == 13) { jQuery(this).blur(); } });
-								}
-							}); jQuery(document).on('gform_post_conditional_logic', function (event, formId, fields, isInit) { })
-						});
+					/* <![CDATA[ */
+					gform.initializeOnLoaded(function () {
+						jQuery(document).on('gform_post_render', function (event, formId, currentPage) {
+							if (formId == 23) {
+								if (typeof Placeholders != 'undefined') {
+									Placeholders.enable();
+								} jQuery('#input_23_10').mask('(999) 999-9999').bind('keypress', function (e) { if (e.which == 13) { jQuery(this).blur(); } });
+							}
+						}); jQuery(document).on('gform_post_conditional_logic', function (event, formId, fields, isInit) { })
+					});
 					/* ]]> */
 		</script>
 		<script type="text/javascript">

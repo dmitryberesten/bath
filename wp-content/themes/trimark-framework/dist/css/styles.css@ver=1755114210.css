@@ -371,7 +371,7 @@ dd {
 
 blockquote {
     margin: 0 0 1rem;
-   
+
 }
 
 b,
@@ -753,7 +753,7 @@ progress {
 .blockquote {
     margin-bottom: 1rem;
     font-size: 1.25rem;
-     border-radius: 70px;
+    border-radius: 70px;
 }
 
 .blockquote>:last-child {
@@ -7341,10 +7341,16 @@ fieldset:disabled .wp-block-button__link {
     z-index: 1030
 }
 
+.mr-top-herader {
+    margin-top: -40px;
+}
+
 .sticky-top {
     position: sticky;
     top: 0;
-    z-index: 1020
+    z-index: 1020;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
 }
 
 .sticky-bottom {
@@ -13509,7 +13515,13 @@ small,
 }
 
 .bg-darkblue_bubble_ne {
-    background: url("../images/circle-xxlarge-bhalf.svg") 60vw top no-repeat, linear-gradient(45deg, #10252F, #004362) !important
+    /* background: url("../images/circle-xxlarge-bhalf.svg") 60vw top no-repeat, linear-gradient(45deg, #10252F, #004362) !important; */
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44) !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .bg-white_dots {
@@ -13770,6 +13782,10 @@ small,
     .acf-innerblocks-container .wp-block-buttons {
         justify-content: center
     }
+}
+
+.acf-innerblocks-container {
+    margin-top: 70px;
 }
 
 .wp-block-image img {
@@ -14405,9 +14421,7 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
 }
 
 .card {
-    border-radius: 5px !important;
-    border-bottom-right-radius: 50px !important;
-    border: 0
+    border-radius: 50px !important;
 }
 
 .card-style--icons {
@@ -14428,7 +14442,7 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
 
 @media(min-width: 992px) {
     .card-body {
-        padding: 30px 30px 40px
+        padding: 10px 30px 30px 40px;
     }
 }
 
@@ -14493,7 +14507,8 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
     overflow: hidden;
     position: relative;
     height: 0;
-    padding-bottom: 45.9459459459%
+    padding-bottom: 45.9459459459%;
+    border-radius: 50px;
 }
 
 .card-img-top img {
@@ -14502,8 +14517,8 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 0
+    top: 0px;
+    left: 0px;
 }
 
 .card-icon {
@@ -14986,7 +15001,17 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
 }
 
 .slick-slide img.card-icon {
-    display: inline-block
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.btn-preview-video {
+    background-color: #006ba6;
+    color: white !important;
+}
+
+.img_photo_review {
+    border-radius: 50px;
 }
 
 .block-accordion {
@@ -14999,9 +15024,9 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
 }
 
 .block-accordion .accordion-item {
-    border-radius: 5px !important;
+    border-radius: 50px !important;
     border-bottom-right-radius: 50px !important;
-    background: linear-gradient(to right, #E7F1F7, #F5F9FC);
+    background: linear-gradient(to right, #baeae9, #cff5dd);
     padding: 15px;
     margin-bottom: 20px
 }
@@ -15054,7 +15079,8 @@ fieldset.gfield.gfield_visibility_visible+fieldset.gfield.gfield_visibility_visi
 }
 
 .block-accordion .toggle-symbol {
-    background: linear-gradient(to bottom, #6DBEE3 0, #006BA6 100%);
+    /* background: linear-gradient(to bottom, #6DBEE3 0, #006BA6 100%); */
+    background: linear-gradient(to bottom, #41809c 0, #003aa6 100%);
     width: 35px;
     height: 35px;
     border-radius: 100%;
@@ -15762,8 +15788,8 @@ p+.block-before-after-gallery {
 
 .form-headline {
     background: linear-gradient(to right, violet 0, #006BA6 100%);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     padding: 17px 0;
     color: #fff;
     font-weight: bold;
@@ -16510,8 +16536,9 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 }
 
 .block-step-slider .step-indicator {
-    background: linear-gradient(to top, #006BA6 0, #6CBEE3 100%);
-    border-radius: 100%;
+    /* background: linear-gradient(to top, #006BA6 0, #6CBEE3 100%); */
+    background: linear-gradient(to top, #57e9b6 0, #6CBEE3 100%);
+    /* border-radius: 100%; */
     display: block;
     color: #fff;
     font-size: 26px;
@@ -16521,15 +16548,18 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: -55px auto 20px -10px !important;
+    /* margin: -55px auto 20px -10px !important; */
+    /* position: relative; */
+    z-index: 10;
+    margin-bottom: 20px;
+    margin-top: -40px;
     position: relative;
-    z-index: 10
 }
 
 @media(min-width: 992px) {
     .block-step-slider .step-slider {
         justify-content: center;
-        margin-bottom: 50px
+        margin-bottom: 10px
     }
 }
 
@@ -16584,10 +16614,20 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 }
 
 .testimonial-card .t-attr-image {
-    border-radius: 100%;
+    /* border-radius: 100%;
     margin: -50px auto 24px 0;
     width: 80px;
-    height: 80px
+    height: 80px; */
+
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.testimonial-cite-auto {
+    text-align: center;
 }
 
 .testimonial-card .t-attr-name {
@@ -16645,6 +16685,13 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 @media(min-width: 992px) {
     .testimonial-slider {
         width: calc(100% + 84px)
+    }
+}
+
+@media(max-width: 430px) {
+    .testimonial-slider {
+        margin: 0 -10px;
+        width: calc(100% + 30px)
     }
 }
 
@@ -16800,6 +16847,12 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
     }
 }
 
+@media(max-width: 430px) {
+    .mb-in-mobile {
+        margin-bottom: 30px;
+    }
+}
+
 .main {
     max-width: 2000px;
     margin: 0 auto;
@@ -16808,7 +16861,8 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 
 .site-footer .footer-main {
     background: linear-gradient(to bottom, #004362 20%, #006BA6 100%);
-    padding: 60px 0
+    padding: 60px 0;
+    background: linear-gradient(to right, #4286f4, #373B44) !important;
 }
 
 @media(min-width: 992px) {
@@ -16891,6 +16945,77 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
     }
 }
 
+@media(max-width: 430px) {
+    #menu-footer-menu-us {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        border-right: 3px solid #6dbee361 !important;
+    }
+
+    .menu-footer-menu-us-item {
+        background: #ffffff29;
+        padding: 5px 50px;
+        border-radius: 30px;
+    }
+
+    .footer-company-information {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .site-footer .footer-company-information address {
     font-size: 16px;
     margin: 15px 0
@@ -16923,6 +17048,10 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
     color: inherit
 }
 
+.footer-form-auto {
+    border-radius: 50px !important;
+}
+
 .site-footer .footer-main-headline {
     display: block;
     color: inherit;
@@ -16945,14 +17074,16 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 
 .site-footer .footer-form {
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    border-radius: 50px;
 }
 
 @media(min-width: 992px) {
     .site-footer .footer-form {
         position: absolute;
         top: 0;
-        right: 0
+        right: 0;
+        border-radius: 50px;
     }
 }
 
@@ -17114,10 +17245,11 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 }
 
 .navbar {
-    background: #004362;
+    /* background: #004362; */
     box-shadow: 0 3px 15px rgba(0, 67, 98, .15);
     padding: 0;
-    width: 100%
+    width: 100%;
+    background: linear-gradient(to right, #2543b2 0, #006BA6 100%);
 }
 
 .navbar .nav-call-now-cta {
@@ -17200,7 +17332,9 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
 
 .navbar-main {
     width: 100%;
-    text-align: center
+    text-align: center;
+    border-bottom-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
 }
 
 @media(min-width: 992px) {
@@ -17208,7 +17342,8 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
         display: flex;
         align-items: center;
         padding: 0 30px;
-        text-align: left
+        text-align: left;
+
     }
 }
 
@@ -17236,4 +17371,92 @@ body:not(.wp-admin) .hero-trust-bar-desktop .wp-block-heading {
     }
 }
 
+.btn-form-hero-back {
+    color: white !important;
+}
+
+.form-radius-hero {
+    border-radius: 50px !important;
+}
+
 /*# sourceMappingURL=styles.css.map */
+
+
+/* Хедер */
+/* Хедер */
+/* Хедер */
+.site-header {
+    /* background: #222; */
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.site-header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* меню по дефолту */
+.header-navigation .menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-navigation .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* бургер кнопка */
+.burger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* адаптив */
+@media (max-width: 430px) {
+
+    .logo-svg-header {
+        width: 40px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header-navigation {
+        display: none;
+        position: absolute;
+        top: 46px;
+            right: 50px;
+        background: #333;
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    .header-navigation.active {
+        display: block;
+    }
+
+    .header-navigation .menu {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0;
+        margin-bottom: 7px;
+    }
+}
+
+/* Хедер */
+/* Хедер */
+/* Хедер */
